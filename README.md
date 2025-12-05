@@ -340,5 +340,5 @@ Looking for more features? Consider adding:
 
 ---
 
-Made with care for developers who love colors 🎨
+Made by designers for those who love colors 🎨
 
