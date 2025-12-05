@@ -1,0 +1,52 @@
+{
+  "name": "color-utils",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript library for color conversions, palettes, naming, and interpolation",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "color-conversion",
+    "rgb",
+    "hsl",
+    "hsv",
+    "hex",
+    "palette",
+    "color-naming",
+    "interpolation",
+    "wcag",
+    "accessibility",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
