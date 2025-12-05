@@ -329,7 +329,7 @@ MIT
 
 ## Related Projects
 
-Looking for more features? Consider adding:
+On the future roadmap:
 - Color harmony generation (complementary, triadic, analogous)
 - Color manipulation (lighten, darken, saturate)
 - LAB/LCH color space support
